@@ -33,9 +33,9 @@ This project solves that problem by providing a **simple and intuitive app** tha
 ---
 
 ## 📱 Screenshots
-| Login Screen | Booking Screen | Profile Screen |
-|--------------|----------------|----------------|
-| ![Login](screenshots/login.png) | ![Booking](screenshots/booking.png) | ![Profile](screenshots/profile.png) |
+| Login Screen                        | Booking Screen                          | Profile Screen                          |
+|-------------------------------------|-----------------------------------------|-----------------------------------------|
+| ![Login](screenshots/Loginpage.png) | ![Booking](screenshots/Bookingpage.png) | ![Profile](screenshots/Profilepage.png) |
 
 *(Take screenshots from your emulator, save them inside a `screenshots/` folder in your project, and rename them `login.png`, `booking.png`, `profile.png`.)*
 
