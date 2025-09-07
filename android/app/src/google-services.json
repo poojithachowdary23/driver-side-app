@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "254644766479",
+    "project_id": "logindemo-a4765",
+    "storage_bucket": "logindemo-a4765.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254644766479:android:370aae1cb0fdb41c2d207a",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAipu4RdDsBg5Asm0jZMUadKXXPOotdo64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<!--<script-->
+<!--        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaDXmqBxyCBb9xZ0MBnMk33FZ0hwv4ZeE&libraries=places"-->
+<!--         async defer-->
+<!--&gt;</script>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="Your app description here" />
+
+    <!-- PWA settings -->
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" type="image/png" href="icons/Icon-192.png" />
+
+    <title>Flutter Map App</title>
+
+    <!-- No Google Maps script here -->
+    <style>
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+          overflow: hidden;
+        }
+        #flutter_view {
+          width: 100%;
+          height: 100%;
+          display: flex;
+        }
+    </style>
+</head>
+
+<body>
+<script>
+    const serviceWorkerVersion = null;
+</script>
+<script src="flutter.js" defer></script>
+<script>
+    window.addEventListener('load', function (ev) {
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
+            appRunner.runApp();
+          });
+        },
+      });
+    });
+</script>
+</body>
+</html>
