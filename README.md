@@ -1,16 +1,49 @@
-# untitled
+# 🚗 Driver-Side Smart Parking App
 
-A new Flutter project.
+A Flutter-based mobile application designed for drivers to **book, track, and manage parking slots** in real time.  
+This is the **driver-side module** of a smart parking system project.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Overview
+Parking in urban areas is a major challenge. Drivers often waste time searching for parking slots and face inconvenience in managing their bookings.  
+This project solves that problem by providing a **simple and intuitive app** that lets drivers:
+- Find and book available parking slots
+- Upload their driving license for verification
+- Navigate between different sections like profile, booking history, and location
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features
+- 🔐 **User Authentication** – Login/Signup for drivers
+- 🅿️ **Parking Slot Booking** – Reserve slots in advance
+- 📍 **Location Selection** – Choose a parking spot easily
+- 📷 **Driving License Upload** – Capture or upload a license image
+- 🔄 **Navigation Flow** – Smooth transition between booking, profile, and history screens
+- ⏳ **Auto Navigation** – Redirects after a short delay for better UX
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+- **Framework:** Flutter (Dart)
+- **Backend:** Firebase / REST APIs (extendable)
+- **Version Control:** Git & GitHub
+- **Tools:** Android Studio / VS Code
+
+---
+
+## 📱 Screenshots
+| Login Screen | Booking Screen | Profile Screen |
+|--------------|----------------|----------------|
+| ![Login](screenshots/login.png) | ![Booking](screenshots/booking.png) | ![Profile](screenshots/profile.png) |
+
+*(Take screenshots from your emulator, save them inside a `screenshots/` folder in your project, and rename them `login.png`, `booking.png`, `profile.png`.)*
+
+---
+
+## ⚡ Installation & Setup
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/driver-side-app.git
